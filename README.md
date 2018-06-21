@@ -1,7 +1,7 @@
 fun.js
 ======
 
-Collection of utilities for functional JavaScript programming
+Functional JavaScript Helpers
 
 API
 ---
