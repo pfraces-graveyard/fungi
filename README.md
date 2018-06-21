@@ -17,6 +17,7 @@ Type detection methods
   * `is.string(data)`
   * `is.object(data)`
   * `is.array(data)`
+  * `is.fn(data)`
 
 ### src/fn/apply.js
 

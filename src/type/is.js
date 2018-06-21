@@ -30,4 +30,8 @@ is.nil = function (data) {
   return data == null;
 };
 
+is.fn = function (data) {
+  return datatype(data) === 'function';
+}
+
 module.exports = is;
