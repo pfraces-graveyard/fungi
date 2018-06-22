@@ -1,5 +1,5 @@
-fungi/array/filter
-==================
+@fungi/array/filter
+===================
 
     filter(arr: array, fn: function): array
 

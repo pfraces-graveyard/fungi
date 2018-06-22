@@ -1,5 +1,5 @@
-fungi/array/concat
-==================
+@fungi/array/concat
+===================
 
     concat(arr1: array, arr2: array): array
 

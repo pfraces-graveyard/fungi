@@ -3,5 +3,6 @@
   "description": "A collection of basic type checks",
   "version": "0.1.0",
   "main": "is.js",
+  "repository": "github:pfraces/fungi",
   "license": "ISC"
 }

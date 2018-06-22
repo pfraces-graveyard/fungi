@@ -3,5 +3,6 @@
   "description": "Creates a new array from the given array-like object",
   "version": "0.1.0",
   "main": "from.js",
+  "repository": "github:pfraces/fungi",
   "license": "ISC"
 }

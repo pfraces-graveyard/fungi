@@ -1,5 +1,5 @@
-fungi/fn/apply
-==============
+@fungi/fn/apply
+===============
 
     apply(fn: function, args: array): any
 

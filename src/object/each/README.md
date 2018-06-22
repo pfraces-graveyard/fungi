@@ -1,5 +1,5 @@
-fungi/object/each
-=================
+@fungi/object/each
+==================
 
     each(obj: object, fn: function): void
 

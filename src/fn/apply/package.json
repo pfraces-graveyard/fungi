@@ -3,5 +3,6 @@
   "description": "Applies the given function to the given array of arguments and returns its returning value",
   "version": "0.1.0",
   "main": "apply.js",
+  "repository": "github:pfraces/fungi",
   "license": "ISC"
 }

@@ -1,5 +1,5 @@
-fungi/array/map
-===============
+@fungi/array/map
+================
 
     map(arr: array, fn: function): array
 

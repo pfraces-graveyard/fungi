@@ -1,5 +1,5 @@
-fungi/array/from
-================
+@fungi/array/from
+=================
 
 Creates a new array from the given array-like object
 

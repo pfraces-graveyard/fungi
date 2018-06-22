@@ -1,5 +1,5 @@
-fungi/type/is
-=============
+@fungi/type/is
+==============
 
 A collection of basic type checks
 

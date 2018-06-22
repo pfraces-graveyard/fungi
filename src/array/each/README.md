@@ -1,5 +1,5 @@
-fungi/array/each
-================
+@fungi/array/each
+=================
 
     each(arr: array, fn: function): void
 
@@ -9,7 +9,7 @@ for each element
     fn(item, index)
 
 `fn` is called with the item and its index in `arr`
-
+=
 Install
 -------
 

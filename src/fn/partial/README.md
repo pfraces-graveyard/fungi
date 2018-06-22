@@ -1,5 +1,5 @@
-fungi/fn/partial
-================
+@fungi/fn/partial
+=================
 
     partial(fn: function, args: array): function
 

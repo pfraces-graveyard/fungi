@@ -1,5 +1,5 @@
-fungi/array/reduce
-==================
+@fungi/array/reduce
+===================
 
     reduce(arr: array, fn: function, seed?: <T>): T
 
