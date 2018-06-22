@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/array/map",
+  "description": "Returns a new array by projecting each element of the given array through the the given function",
+  "version": "0.1.0",
+  "main": "map.js",
+  "license": "ISC"
+}

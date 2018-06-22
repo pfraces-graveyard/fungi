@@ -1,9 +1,9 @@
-var arrayFrom = require('../array/arrayFrom.js');
-var apply = require('../fn/apply.js');
-var concat = require('../array/concat.js');
+var from = require('@fungi/array/from');
+var apply = require('@fungi/fn/apply');
+var concat = require('@fungi/array/concat');
 
 var partial = function (/* fn, args... */) {
-  var args = arrayFrom(arguments);
+  var args = from(arguments);
   var fn = args.shift();
 
   return function (/* arguments... */) {

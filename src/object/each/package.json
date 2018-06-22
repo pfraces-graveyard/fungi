@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/object/each",
+  "description": "Iterates over the given object, calling the given function for each attribute",
+  "version": "0.1.0",
+  "main": "each.js",
+  "license": "ISC"
+}

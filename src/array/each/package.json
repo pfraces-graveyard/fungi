@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/array/each",
+  "description": "Iterates over the given array or array-like object, calling the given function for each element",
+  "version": "0.1.0",
+  "main": "each.js",
+  "license": "ISC"
+}

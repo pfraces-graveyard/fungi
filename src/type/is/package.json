@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/type/is",
+  "description": "A collection of basic type checks",
+  "version": "0.1.0",
+  "main": "is.js",
+  "license": "ISC"
+}

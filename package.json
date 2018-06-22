@@ -1,7 +1,0 @@
-{
-  "name": "fun",
-  "description": "Functional JavaScript Helpers",
-  "version": "0.1.0",
-  "main": "src/fun.js",
-  "license": "ISC"
-}

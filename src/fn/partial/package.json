@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/fn/partial",
+  "description": "Returns a function which when called will apply the provided function `fn` to the concatenation of `args` and its arguments",
+  "version": "0.1.0",
+  "main": "partial.js",
+  "license": "ISC"
+}

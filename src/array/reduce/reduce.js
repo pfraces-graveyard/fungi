@@ -1,5 +1,5 @@
-var each = require('./each.js');
-var is = require('../type/is.js');
+var each = require('@fungi/array/each');
+var is = require('@fungi/type/is');
 
 var reduce = function (arr, fn, seed) {
   var acc = is.defined(seed) ? seed : arr.shift();

@@ -1,4 +1,4 @@
-var each = require('../array/each.js');
+var each = require('@fungi/object/each');
 
 var datatype = (function () {
   var START = '[object '.length;
@@ -6,21 +6,28 @@ var datatype = (function () {
   var toString = Object.prototype.toString;
   
   return function (data) {
-    return toString.call(data).slice(START, END).toLowerCase();
+    return toString.call(data).slice(START, END);
   };
 })();
 
 var is = (function (types) {
-  var check = {};
+  var typeChecks = {};
 
-  each(types, function (type) {
-    check[type] = function (data) {
+  each(types, function (type, index) {
+    typeChecks[index] = function (data) {
       return datatype(data) === type;
     };
   });
 
-  return check;
-})(['boolean', 'number', 'string', 'object', 'array']);
+  return typeChecks;
+})({
+  bool:   'Boolean',
+  number: 'Number',
+  string: 'String',
+  object: 'Object',
+  array:  'Array',
+  fn:     'Function'
+});
 
 is.defined = function (data) {
   return typeof data !== 'undefined';
@@ -29,9 +36,5 @@ is.defined = function (data) {
 is.nil = function (data) {
   return data == null;
 };
-
-is.fn = function (data) {
-  return datatype(data) === 'function';
-}
 
 module.exports = is;

@@ -1,4 +1,4 @@
-var each = require('./each.js');
+var each = require('@fungi/array/each');
 
 var filter = function (arr, fn) {
   var result = [];

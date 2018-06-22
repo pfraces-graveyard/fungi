@@ -1,0 +1,7 @@
+{
+  "name": "@fungi/array/reduce",
+  "description": "Reduces the given array or array-like object by passing its elements to the given function and accumulating its results",
+  "version": "0.1.0",
+  "main": "reduce.js",
+  "license": "ISC"
+}
