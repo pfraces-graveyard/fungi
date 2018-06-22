@@ -11,4 +11,4 @@ var partial = function (/* fn, args... */) {
   };
 };
 
-module.exports = pa./arrayrtial;
+module.exports = partial;
