@@ -1,4 +1,4 @@
-@fungi/object/each
+@fungi/object.each
 ==================
 
     each(obj: object, fn: function): void
@@ -12,7 +12,7 @@ Iterates over the given object, calling the given function for each attribute
 Install
 -------
 
-    npm install --save @fungi/object/each
+    npm install --save @fungi/object.each
 
 Usage
 -----

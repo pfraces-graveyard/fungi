@@ -1,4 +1,4 @@
-@fungi/fn/partial
+@fungi/fn.partial
 =================
 
     partial(fn: function, args: array): function
@@ -9,7 +9,7 @@ to the concatenation of `args` and its arguments
 Install
 -------
 
-    npm install --save @fungi/fn/partial
+    npm install --save @fungi/fn.partial
 
 Usage
 -----

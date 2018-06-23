@@ -1,4 +1,4 @@
-@fungi/array/from
+@fungi/array.from
 =================
 
 Creates a new array from the given array-like object
@@ -6,7 +6,7 @@ Creates a new array from the given array-like object
 Install
 -------
 
-    npm install --save @fungi/array/from
+    npm install --save @fungi/array.from
 
 Usage
 -----

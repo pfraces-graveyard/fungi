@@ -1,5 +1,5 @@
 {
-  "name": "@fungi/array/concat",
+  "name": "@fungi/array.concat",
   "description": "Returns a new array by concatenating two given arrays or array-like objects",
   "version": "0.1.0",
   "main": "concat.js",

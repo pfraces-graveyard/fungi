@@ -1,4 +1,4 @@
-@fungi/array/reduce
+@fungi/array.reduce
 ===================
 
     reduce(arr: array, fn: function, seed?: <T>): T
@@ -16,7 +16,7 @@ and the iteration starts with the second element
 Install
 -------
 
-    npm install --save @fungi/array/reduce
+    npm install --save @fungi/array.reduce
 
 Usage
 -----

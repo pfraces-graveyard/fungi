@@ -1,4 +1,4 @@
-@fungi/array/each
+@fungi/array.each
 =================
 
     each(arr: array, fn: function): void
@@ -13,7 +13,7 @@ for each element
 Install
 -------
 
-    npm install --save @fungi/array/each
+    npm install --save @fungi/array.each
 
 Usage
 -----

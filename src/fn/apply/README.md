@@ -1,4 +1,4 @@
-@fungi/fn/apply
+@fungi/fn.apply
 ===============
 
     apply(fn: function, args: array): any
@@ -9,7 +9,7 @@ returning value
 Install
 -------
 
-    npm install --save @fungi/fn/apply
+    npm install --save @fungi/fn.apply
 
 Usage
 -----

@@ -1,4 +1,4 @@
-@fungi/array/concat
+@fungi/array.concat
 ===================
 
     concat(arr1: array, arr2: array): array
@@ -8,7 +8,7 @@ Returns a new array by concatenating two given arrays or array-like objects
 Install
 -------
 
-    npm install --save @fungi/array/concat
+    npm install --save @fungi/array.concat
 
 Usage
 -----

@@ -6,7 +6,7 @@ Functional JavaScript Helpers
 Type
 ----
 
-### @fungi/type/is
+### @fungi/type.is
 
 A collection of basic type checks
 
@@ -20,7 +20,7 @@ console.log(is.nil()); // true
 Function
 --------
 
-### @fungi/fn/apply
+### @fungi/fn.apply
 
     apply(fn: function, args: array): any
 
@@ -32,7 +32,7 @@ var apply = require('@fungi/fn/apply');
 console.log(apply(Math.max, [3, 7, 44, 21])); // 44
 ```
 
-### @fungi/fn/partial
+### @fungi/fn.partial
 
     partial(fn: function, args: array): function
 
@@ -53,7 +53,7 @@ console.log(double(3)); // 6
 Array
 -----
 
-### @fungi/array/from
+### @fungi/array.from
 
 Creates a new array from the given array-like object
 
@@ -70,7 +70,7 @@ var arrayLike = {
 from(arrayLike).slice(1); // ['bar', 'qux']
 ```
 
-### @fungi/array/concat
+### @fungi/array.concat
 
     concat(arr1: array, arr2: array): array
 
@@ -81,7 +81,7 @@ var concat = require('@fungi/array/concat');
 console.log(concat([1, 2, 3], [4, 5, 6])); // [1, 2, 3, 4, 5, 6]
 ```
 
-### @fungi/array/each
+### @fungi/array.each
 
     each(arr: array, fn: function): void
 
@@ -99,7 +99,7 @@ each([1, 2, 3, 4], function (item) {
 console.log(acc); // 10
 ```
 
-### @fungi/array/map
+### @fungi/array.map
 
     map(arr: array, fn: function): array
 
@@ -117,7 +117,7 @@ var doubles = map(numbers, function (x) {
 console.log(doubles); // [2, 4, 6, 8]
 ```
 
-### @fungi/array/filter
+### @fungi/array.filter
 
     filter(arr: array, fn: function): array
 
@@ -135,7 +135,7 @@ var odds = filter(numbers, function (number) {
 console.log(odds); // [1, 3]
 ```
 
-### @fungi/array/reduce
+### @fungi/array.reduce
 
     reduce(arr: array, fn: function, seed?: <T>): T
 
@@ -155,7 +155,7 @@ console.log(reduce([1, 2, 3, 4], sum)); // 10
 Object
 ------
 
-### @fungi/object/each
+### @fungi/object.each
 
     each(obj: object, fn: function): void
 

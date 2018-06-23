@@ -1,4 +1,4 @@
-@fungi/type/is
+@fungi/type.is
 ==============
 
 A collection of basic type checks
@@ -6,7 +6,7 @@ A collection of basic type checks
 Install
 -------
 
-    npm install --save @fungi/type/is
+    npm install --save @fungi/type.is
 
 Usage
 -----

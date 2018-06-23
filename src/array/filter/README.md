@@ -1,4 +1,4 @@
-@fungi/array/filter
+@fungi/array.filter
 ===================
 
     filter(arr: array, fn: function): array
@@ -13,7 +13,7 @@ given predicate
 Install
 -------
 
-    npm install --save @fungi/array/filter
+    npm install --save @fungi/array.filter
 
 Usage
 -----

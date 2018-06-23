@@ -1,4 +1,4 @@
-@fungi/array/map
+@fungi/array.map
 ================
 
     map(arr: array, fn: function): array
@@ -13,7 +13,7 @@ the given function
 Install
 -------
 
-    npm install --save @fungi/array/map
+    npm install --save @fungi/array.map
 
 Usage
 -----
